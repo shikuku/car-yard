@@ -35,17 +35,22 @@ text-align:center;
 
 
 
- const Vehicle=()=>{
+ const Vehicle=({selectCurrency, currency, currencyRate, filteredCars})=>{
+
+    
+
+    
      return(
-         cars.map(car=>{
+         filteredCars.map(car=>{
             return (
                 <Vehiclecontainer>
+                    
                 <Imagecontainer>
                 <img src={car.img} width="100%" height="100%" style={{objectFit:"cover"}}/>
                 </Imagecontainer>
                 <ImageInfo>
                     <h3>{car.Brand}</h3>
-                    <p>{car.price}</p>
+                    <p>{`${selectCurrency===undefined?"USD":selectCurrency} ${car.price * Math.trunc((currencyRate === undefined || selectCurrency==="USD" ? 1: currencyRate[selectCurrency]))}`}</p>
                 </ImageInfo>
                 </Vehiclecontainer>
             )
