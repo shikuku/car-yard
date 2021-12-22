@@ -47,8 +47,8 @@ border-radius:10px;
 
 `
 const CarsHolder=styled.div`
-border-bottom:4px red solid;
-background-color:lightblue;
+border-bottom:4px darkgrey solid;
+background-color:#fff;
 
 `
 

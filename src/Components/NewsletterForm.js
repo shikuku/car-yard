@@ -1,6 +1,5 @@
 import MailchimpSubscribe from "react-mailchimp-subscribe"
-import "./NewsletterForm.module.css";
-
+import form from "./NewsletterForm.module.css";
 
 
 
@@ -13,7 +12,7 @@ const SimpleForm = () => <MailchimpSubscribe url={url}/>
 // use the render prop and your custom form
 const CustomForm = () => (
 
-  <MailchimpSubscribe
+  <MailchimpSubscribe className={form.inputs} style={{marginLeft:"2em"}}
     url={url}
     render={({ subscribe, status, message }) => (
       <div>

@@ -5,6 +5,7 @@ import Cars from "../src/Components/Cars";
 import Footer from "../src/Components/Footer";
 import CustomForm from "../src/Components/NewsletterForm";
 import styled from "styled-components";
+import MailchimpSubscribe from "react-mailchimp-subscribe";
 
 
 const WhatsappContainer=styled.div`
@@ -47,6 +48,20 @@ const WhatsappContainer=styled.div`
 
 `
 
+const CustomFormContainer=styled.div`
+
+width:50%;
+padding:2em;
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+margin:2em;
+
+
+
+`
+
+
 
 
 
@@ -62,13 +77,23 @@ export default function Home() {
 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"/>
       </Head>
-      {/* <Nav/>
-      <Mainsection/>
+      <Nav/>
+      {/* <Mainsection/>
     
      <Cars/>  
+
+     <div className="inputs">
+<CustomForm/>
+</div>
+
+
+
+
      
-     <CustomForm/> */}
-  <Footer/>
+      <Footer/>
+
+
+
 
 <WhatsappContainer>
 
@@ -86,10 +111,7 @@ export default function Home() {
 
 
 </WhatsappContainer> 
-
-
-
-
+  */}
 
 
 

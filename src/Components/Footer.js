@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+// import InstagramIcon from '@mui/icons-material/Instagram';
 
 
 
@@ -7,10 +7,11 @@ const FooterContainer=styled.div`
 background-color:#fff;
 border-bottom:3px solid blue;
 padding:2em;
+color:#fff;
 
 `
 const UlContainer=styled.div`
-background-color:beige;
+background-color:#000;
 display:flex;
 justify-content:space-around;
 border-bottom:5px solid darkgrey;
@@ -79,11 +80,44 @@ margin:2em;
 `
 
 
+const Container=styled.div`
+display:flex;
+
+
+`
+
+const Content=styled.div`
+background-color:#000;
+width:50%;
+
+`
+const Copyright=styled.div`
+color:#fff;
+font-size:2rem;
+margin:.3em 0em;
+display:flex;
+justify-content:end;
+background-color:#000;
+
+`
+
 
 const Footer = () => {
-    return ( 
+    return (
+      
+      <>
         <FooterContainer>
 <UlContainer>
+<div>
+    <h1>CAR-YARD.COM</h1>
+    <p>+254717911169</p>
+    <p>9-1 Minatojima, Chuo-ku, Kobe, Hyogo, Japan, 650-0045
+opportunities@rekotrade.com
+</p>
+  
+</div>
+
+
 <ul>
     <p>CONTACTS</p>
     <li><a href="#">Whats App</a></li>
@@ -113,6 +147,12 @@ const Footer = () => {
 
 
 </UlContainer>
+
+
+
+
+<Container>
+
 
 <FooterSlide
         id="carouselExampleCaptions"
@@ -247,12 +287,33 @@ const Footer = () => {
    
 </FooterSlide>
 
+<Content>
+    <p>ddddddddddddd</p>
+</Content>
 
 
+
+
+</Container>
+
+
+
+{/* <div>
+    <InstagramIcon />
+</div> */}
 
 
 
         </FooterContainer>
+
+<Copyright>
+  <p>Copyright &copy;2021</p>
+</Copyright>
+
+
+        </>
+
+
      );
 }
  

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Navcontainer=styled.div`
-
+background-color:blue;
 
 
 `

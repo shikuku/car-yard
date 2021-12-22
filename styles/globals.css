@@ -14,3 +14,28 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.inputs {
+ text-align: center;
+  width: 70%;
+   height: 50vh;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  margin: 2em 10em;
+
+}
+
+.inputs input {
+  padding:2em;
+  margin: 5em 0em;
+ 
+ 
+}
+
+.inputs button{
+  padding: 2em;
+  border-radius: 5px;
+  background-color: seagreen;
+  
+}
