@@ -89,6 +89,9 @@ display:flex;
 const Content=styled.div`
 background-color:#000;
 width:50%;
+font-size:1.5rem;
+text-align:center;
+padding:5%;
 
 `
 const Copyright=styled.div`
@@ -288,7 +291,9 @@ opportunities@rekotrade.com
 </FooterSlide>
 
 <Content>
-    <p>ddddddddddddd</p>
+    <p>Motorhub is a car dealer company based in Kenya which sells cars ranging from small cars to big trucks. We have cars in stock and others are imports from Japan, UK and Thailand.
+
+</p>
 </Content>
 
 

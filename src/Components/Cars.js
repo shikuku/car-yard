@@ -20,7 +20,8 @@ gap:2em;
 `
 
 const Cards=styled.div`
-background-color:#EE2900;
+background-color:#000;
+color:#fff;
 justify-content:center;
 display:flex;
 width:400px;
@@ -99,7 +100,7 @@ const Cars = () => {
 
 <ImgContainer>
 <Image src={car1} />
-<p>AUDI 101</p>
+<p>BMW 360</p>
 </ImgContainer>
 
 </Cards>
@@ -108,7 +109,7 @@ const Cars = () => {
 
 <ImgContainer>
 <Image src={car2} />
-<p>AUDI 101</p>
+<p>Audi 96</p>
 </ImgContainer>
 
 
@@ -119,7 +120,7 @@ const Cars = () => {
 
 <ImgContainer>
 <Image src={car3} />
-<p>AUDI 101</p>
+<p>Veron 101</p>
 </ImgContainer>
 
 
@@ -129,7 +130,7 @@ const Cars = () => {
 <Cards>
 <ImgContainer>
 <Image src={car4} />
-<p>AUDI 101</p>
+<p>BMW</p>
 </ImgContainer>
 
 
@@ -139,7 +140,7 @@ const Cars = () => {
 
 <ImgContainer>
 <Image src={car5} />
-<p>AUDI 101</p>
+<p>BMW </p>
 </ImgContainer>
 
 
@@ -149,7 +150,7 @@ const Cars = () => {
 
 <ImgContainer>
 <Image src={car6} />
-<p>AUDI 101</p>
+<p>Ferari 680</p>
 </ImgContainer>
 
 
@@ -159,7 +160,7 @@ const Cars = () => {
 
 <ImgContainer>
 <Image src={car7} />
-<p>AUDI 101</p>
+<p>Jeep</p>
 </ImgContainer>
 
 
@@ -169,7 +170,7 @@ const Cars = () => {
 
 <ImgContainer>
 <Image src={car8} />
-<p>AUDI 101</p>
+<p>BMW</p>
 </ImgContainer>
 
 

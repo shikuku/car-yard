@@ -1,5 +1,8 @@
 import React, {Component} from "react";
 import GoogleLogin from "react-google-login";
+import styled from "styled-components";
+
+
 
 export default class signUp extends Component{
     responseGoogle=(response)=>{

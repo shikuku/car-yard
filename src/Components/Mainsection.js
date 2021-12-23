@@ -96,11 +96,10 @@ const Mainsection = () => {
         </div>
         <div className="carousel-inner">
           <ImageOne className="carousel-item active">
-            hhjjjj
             <div className="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
+              <h5>Ferari 101</h5>
               <p>
-                Some representative placeholder content for the first slide.
+              This is one of the top speed cars in the world.
               </p>
             </div>
           </ImageOne>
@@ -115,36 +114,36 @@ const Mainsection = () => {
           </ImageTwo>
           <ImageThree className="carousel-item">
             <div className="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
+              <h5>Lamborgini 96</h5>
               <p>
-                Some representative placeholder content for the third slide.
+                The most luxurius cars in the world.
               </p>
             </div>
           </ImageThree>
 
           <ImageFour className="carousel-item">
             <div className="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
+              <h5>Lambo veron</h5>
               <p>
-                Some representative placeholder content for the third slide.
+                The coolest cars in the car industrie.
               </p>
             </div>
           </ImageFour>
 
           <ImageFive className="carousel-item">
             <div className="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
+              <h5>Jeep 960</h5>
               <p>
-                Some representative placeholder content for the third slide.
+                Jeep is the most used cars recently.
               </p>
             </div>
           </ImageFive>
 
           <ImageSix className="carousel-item">
             <div className="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
+              <h5>Sport Cars</h5>
               <p>
-                Some representative placeholder content for the third slide.
+                the most adorable cars in the world.
               </p>
             </div>
           </ImageSix>
